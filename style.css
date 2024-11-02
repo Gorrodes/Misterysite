@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 1.5em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+.dark-section {
+    background-color: #2e2e2e;
+    padding: 2em;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #d1a832;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.2em;
+}
+
+.expose p {
+    background-color: #333;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+    color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label, form textarea, form button {
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+
+form textarea {
+    padding: 0.8em;
+    resize: vertical;
+    height: 100px;
+    background-color: #222;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.8em;
+    background-color: #d1a832;
+    color: #1a1a1a;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #e6c76d;
+}
+
+.feedback {
+    color: #d1a832;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    text-align: center;
+}
