@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Reports</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1>Mystery Reports</h1>
+        <nav>
+            <ul>
+                <li><a href="#latest">Latest Tips</a></li>
+                <li><a href="#exposed">Secrets Exposed</a></li>
+                <li><a href="#report">Submit a Tip</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="content">
+        <section id="latest" class="dark-section">
+            <h2>Latest Tips</h2>
+            <p>Here's what the city's talking about:</p>
+            <ul>
+                <li>"Spotted: A prominent figure sneaking out of an unmarked building late at night."</li>
+                <li>"Rumor has it there's more to the new art exhibit than meets the eye."</li>
+                <li>"Someone was seen slipping a note into the mailbox of House 221B. Who could it be for?"</li>
+            </ul>
+        </section>
+
+        <section id="exposed" class="dark-section">
+            <h2>Secrets Exposed</h2>
+            <div class="expose">
+                <p>"An anonymous source revealed some interesting connections between high-profile names."</p>
+                <p>"Another tip suggests a mystery relationship between two rival companies. More details soon."</p>
+            </div>
+        </section>
+
+        <section id="report" class="dark-section">
+            <h2>Submit a Tip</h2>
+            <p>Your information is safe with us. Share your story anonymously:</p>
+            <form id="contactForm" action="#" method="post">
+                <label for="tip">Your Tip:</label>
+                <textarea id="tip" name="tip" placeholder="Type your secret..." required></textarea>
+                <button type="submit">Submit Anonymously</button>
+                <p id="formFeedback" class="feedback"></p>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Mystery Reports. Stay curious.</p>
+    </footer>
+</body>
+</html>
